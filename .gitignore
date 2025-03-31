@@ -1,0 +1,19 @@
+# Ignore environment variables file
+.env
+
+# Ignore dependencies folder
+/node_modules/
+
+# Ignore build and log files
+/dist/
+/build/
+/logs/
+
+# Ignore package-lock.json if you don't want to track it (usually, it should be tracked)
+# package-lock.json
+
+# VSCode workspace settings (if not using them across all contributors)
+.vscode/
+
+# Log files
+*.log
