@@ -3,6 +3,8 @@ Discord MutationObserver Bot
 ## Overview
 This project is a bot that uses Playwright and MutationObserver to monitor a specific Discord channel for new posts. When a post meets a predefined condition, the bot extracts the relevant link and executes a batch script to open it in a local Chrome instance.
 
+
+
 ## Features
 - Monitors Discord channel UI for new posts.
 - Uses MutationObserver to detect real-time changes.
@@ -10,27 +12,29 @@ This project is a bot that uses Playwright and MutationObserver to monitor a spe
 - Modifies the link into a batch script immediately.
 - Executes the batch script to open the link in Chrome.
 
+
+
 ## Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/repository-name.git
-
+   git clone https://github.com/Veselincho/discord-mutation-observer-bot.git
+   
     Navigate into the project directory:
+    cd discord-mutation-observer-bot
 
-cd repository-name
 
-Install dependencies:
-
+2. Install dependencies:
     npx playwright install && npm install
 
-Usage
 
-Run the bot with:
+3. Execute the bot:
+    node index.js
 
-node index.js
 
-Requirements
+ 
+
+
+## Requirements
 
     Node.js (latest stable version recommended)
 
@@ -38,7 +42,11 @@ Requirements
 
     A Discord account with access to the target channel
 
-Notes
+
+
+
+
+## Notes
 
     Ensure you have Playwright set up properly to interact with the UI.
 
